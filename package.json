@@ -67,8 +67,6 @@
     "clean-webpack-plugin": "1.0.1",
     "codecov": "3.2.0",
     "commander": "2.19.0",
-    "enzyme": "3.9.0",
-    "enzyme-adapter-react-16": "1.11.2",
     "express": "4.16.4",
     "jest": "24.5.0",
     "prettier": "^1.16.4",
@@ -77,6 +75,7 @@
     "react-css-transition-replace": "3.0.3",
     "react-dom": "16.8.5",
     "react-test-renderer": "^16.8.5",
+    "react-testing-library": "^6.0.3",
     "rollup": "1.7.0",
     "rollup-plugin-babel": "4.3.2",
     "rollup-plugin-babel-minify": "8.0.0",
@@ -88,10 +87,7 @@
     "webpack-cli": "3.3.0"
   },
   "peerDependencies": {
-    "react": "^15 || ^16",
-    "react-dom": "^15 || ^16"
-  },
-  "dependencies": {
-    "prop-types": "15.7.2"
+    "react": "^16.8",
+    "react-dom": "^16.8"
   }
 }
