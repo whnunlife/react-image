@@ -9,7 +9,7 @@
     "pretty": "prettier *.js src/**/*.js --write",
     "shouldPublish": "semver `npm -s view $npm_package_name version` --range \"<$npm_package_version\"",
     "test": "jest --projects jest*.json",
-    "postinstall": "npm install && npm run build"
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
